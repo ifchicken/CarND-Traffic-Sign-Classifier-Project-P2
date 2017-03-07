@@ -15,14 +15,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./report/train_sample "10_sample"
-[image2]: ./report/chart_train "train_data_set"
-[image3]: ./report/chart_valid "valid_data_set"
-[image4]: ./report/chart_test "test_data_set"
-[image5]: ./report/normalize "normalize data"
+[image1]: ./report/train_sample.png "10_sample"
+[image2]: ./report/chart_train.png "train_data_set"
+[image3]: ./report/chart_valid.png "valid_data_set"
+[image4]: ./report/chart_test.png "test_data_set"
+[image5]: ./report/normalize.png "normalize data"
 [image6]: ./report/architecture.JPG "architect"
 
-[image7]:  ./more_test/00009.ppm  "moretest1"
+[image7]:  ./report/more_test.png  "moretest"
 [image8]:  ./more_test/00010.ppm  "moretest2"
 [image9]:  ./more_test/00013.ppm  "moretest3"
 [image10]: ./more_test/00020.ppm  "moretest4"
@@ -100,7 +100,7 @@ X_train, X_valid, y_train, y_valid = train_test_split(X_train, y_train, test_siz
 The code for my final model is located in the 7th cell of the ipython notebook. 
 
 Diagram:
-![alt text][image5]
+![alt text][image6]
 
 My final model consisted of the following layers:
 
@@ -172,8 +172,7 @@ At last, I used this model to predict test set. The accuracy is about 0.93.
 
 Here are 10 German traffic signs that I found on the web:
 
-![alt text][image7] ![alt text][image8] ![alt text][image9] ![alt text][image10] ![alt text][image11]
-![alt text][image12] ![alt text][image13] ![alt text][image14] ![alt text][image15] ![alt text][image16]
+![alt text][image7] 
 
 The last image might be difficult to classify because the amout of class 0 in the training set is fewer than other class
 
